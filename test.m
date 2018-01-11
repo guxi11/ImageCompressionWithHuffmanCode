@@ -10,4 +10,6 @@ seven = 7*ones(1,18);
 
 SymString = [one, two, three, four, five, six, seven];
 
-HuffEncode(SymString);
+[BitStringInUint8, SymCodeTable] = HuffEncode(SymString);
+
+Decoded = HuffDecode(BitStringInUint8, SymCodeTable)

@@ -54,13 +54,3 @@ end
 SymCodeTable = {real(A); M};
 
 return
-
-
-
-% -----------------------------------------
-% % disp the result
-% for in = 1:n
-%     Sym = Result{1};
-%     Code = Result{2};
-%     disp([in, Sym(in), Code{in}]);
-% end
