@@ -51,6 +51,6 @@ while(index > 0)
     M{C(index1)} = [M{C(index1)}, 1];
 end
 
-SymCodeTable = {real(A); M};
+SymCodeTable = {X(real(A)); M};
 
 return
